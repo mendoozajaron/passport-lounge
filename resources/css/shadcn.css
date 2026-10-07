@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scoped to the site's palette so shadcn components (Button, Card, Carousel) match the theme. */
+:root {
+  --background: 0 0% 100%;
+  --foreground: 222 25% 14%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 25% 14%;
+  --primary: 222 33% 15%;
+  --primary-foreground: 0 0% 100%;
+  --accent: 210 20% 94%;
+  --accent-foreground: 222 25% 14%;
+  --border: 214 16% 85%;
+  --input: 214 16% 85%;
+  --ring: 38 55% 60%;
+  --radius: 0.75rem;
+}
